@@ -1,5 +1,5 @@
 .nbar {
-    background-color: #C0C0C0;
+    background-color: black;
     width:auto-fill;
     height:4.25%;
     position: absolute;
@@ -9,7 +9,8 @@
     border:1px solid black;
 }
 button{
-    background-color: #C0C0C0;
+    background-color: black;
+    color:white;
     font-family: 'Press Start 2P';
     border:none;
     width:min-content;
@@ -18,13 +19,16 @@ button{
     padding: 9px;
     padding-bottom: 8px;
 }
+button:hover{
+    color: #FFF44F;
+}
 .btn {
     font-size: 14px;
-    border-right:1px solid black;
+    border-right:1px solid white;
     left: 0px;
 }
 .btn2{
     font-size: 8px;
-    border-left:1px solid black;
+    border-left:1px solid white;
     right: 0px;
 }
