@@ -3,10 +3,13 @@
     width:auto-fill;
     height:4.25%;
     position: absolute;
-    bottom: 1px;
+    bottom: 0;
     left:0;
     right:0;
-    border:1px solid black;
+    border:1px solid white;
+    border-left:None;
+    border-right:none;
+    opacity:75%
 }
 button{
     background-color: black;
@@ -16,11 +19,13 @@ button{
     width:min-content;
     height:min-content;
     position:absolute;
-    padding: 9px;
+    padding: 8px;
     padding-bottom: 8px;
+    border-color:#72BCD4 ;
 }
 button:hover{
-    color: #FFF44F;
+    color: #72BCD4;
+    border-color:#72BCD4 ;
 }
 .btn {
     font-size: 14px;
@@ -29,6 +34,7 @@ button:hover{
 }
 .btn2{
     font-size: 8px;
+    padding-bottom: 7px;
     border-left:1px solid white;
     right: 0px;
 }
