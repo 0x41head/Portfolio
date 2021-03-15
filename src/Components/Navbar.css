@@ -1,0 +1,30 @@
+.nbar {
+    background-color: #C0C0C0;
+    width:auto-fill;
+    height:4.25%;
+    position: absolute;
+    bottom: 1px;
+    left:0;
+    right:0;
+    border:1px solid black;
+}
+button{
+    background-color: #C0C0C0;
+    font-family: 'Press Start 2P';
+    border:none;
+    width:min-content;
+    height:min-content;
+    position:absolute;
+    padding: 9px;
+    padding-bottom: 8px;
+}
+.btn {
+    font-size: 14px;
+    border-right:1px solid black;
+    left: 0px;
+}
+.btn2{
+    font-size: 8px;
+    border-left:1px solid black;
+    right: 0px;
+}
