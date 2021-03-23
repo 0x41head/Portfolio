@@ -4,7 +4,7 @@ import Background from './Components/Background';
 
 function App() {
   return (
-    <>
+    <>  
     <Background />
     <Navbar />
     </>

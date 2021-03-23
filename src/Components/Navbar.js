@@ -6,7 +6,6 @@ function Navbar() {
         <>
         <div className="nbar">
             <button className="btn">Menu</button>
-            <button className="btn2">Your Info</button>
         </div>
         </>
         

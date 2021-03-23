@@ -1,5 +1,5 @@
 .nbar {
-    background-color: black;
+    background-color:#808080;
     width:auto-fill;
     height:4.25%;
     position: absolute;
@@ -9,32 +9,28 @@
     border:1px solid white;
     border-left:None;
     border-right:none;
-    opacity:75%
+    opacity:0.5;
 }
 button{
-    background-color: black;
-    color:white;
-    font-family: 'Press Start 2P';
+    font-weight: bold;
+    color:black;
+    font-family: 'PT Sans Narrow';
     border:none;
-    width:min-content;
-    height:min-content;
+    width:max-content;
+    height:100%;
     position:absolute;
-    padding: 8px;
-    padding-bottom: 8px;
-    border-color:#72BCD4 ;
+    padding: 0px,8px,0px;
+    border-color:#b20000 ;
+    
 }
 button:hover{
-    color: #72BCD4;
-    border-color:#72BCD4 ;
+    color: #b20000;
+    border-color:#b20000 ;
+    
 }
 .btn {
-    font-size: 14px;
     border-right:1px solid white;
     left: 0px;
-}
-.btn2{
-    font-size: 8px;
-    padding-bottom: 7px;
-    border-left:1px solid white;
-    right: 0px;
+    font-size: 26px;
+    
 }
