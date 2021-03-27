@@ -1,0 +1,6 @@
+.entire{
+  height:100%; 
+  overflow:hidden;
+  overscroll-behavior: contain;
+  margin:0px;
+}

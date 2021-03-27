@@ -1,17 +1,17 @@
 .nbar {
-    background-color:#808080;
+    background-color:rgba(169,169,169,0.5);
     width:auto-fill;
     height:4.25%;
     position: absolute;
     bottom: 0;
     left:0;
     right:0;
-    border:1px solid white;
+    border:1px solid #f2f3f4;
     border-left:None;
     border-right:none;
-    opacity:0.5;
 }
-button{
+
+.mnu {
     font-weight: bold;
     color:black;
     font-family: 'PT Sans Narrow';
@@ -19,18 +19,16 @@ button{
     width:max-content;
     height:100%;
     position:absolute;
-    padding: 0px,8px,0px;
-    border-color:#b20000 ;
-    
-}
-button:hover{
-    color: #b20000;
-    border-color:#b20000 ;
-    
-}
-.btn {
-    border-right:1px solid white;
+    border-color:#4d004d ;
+    background-color: #f2f3f4;
     left: 0px;
     font-size: 26px;
-    
+    padding-right: 10px;
 }
+
+
+.mnu:hover{
+    color: #4d004d;
+    border-right:5px solid #4d004d ;
+}
+

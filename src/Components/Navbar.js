@@ -5,7 +5,7 @@ function Navbar() {
     return (
         <>
         <div className="nbar">
-            <button className="btn">Menu</button>
+            <button className="mnu">Menu</button>
         </div>
         </>
         
