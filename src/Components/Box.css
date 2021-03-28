@@ -3,18 +3,10 @@
     border: 1px solid #4d004d;
     color: #4d004d;
     font-family: 'PT Sans Narrow';
+    font-size: 18px;
     
 }
 
-.allowed {
-    overflow:"hidden";
-    position: fixed;
-    top:0;
-    left:0;
-    height: 100%;
-    width: 100%;
-    
-}
 .topbox{
     background-color:#4d004d ;
     width: 100%;

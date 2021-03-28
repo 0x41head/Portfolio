@@ -1,6 +1,8 @@
 .entire{
-  height:100%; 
-  overflow:hidden;
-  overscroll-behavior: contain;
-  margin:0px;
+  overflow:"hidden";
+  position: fixed;
+  top:0;
+  left:0;
+  height: 100%;
+  width: 100%;
 }

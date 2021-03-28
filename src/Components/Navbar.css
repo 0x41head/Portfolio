@@ -9,6 +9,7 @@
     border:1px solid #f2f3f4;
     border-left:None;
     border-right:none;
+    overflow: hidden;
 }
 
 .mnu {
@@ -22,7 +23,7 @@
     border-color:#4d004d ;
     background-color: #f2f3f4;
     left: 0px;
-    font-size: 26px;
+    font-size: 25px;
     padding-right: 10px;
 }
 
