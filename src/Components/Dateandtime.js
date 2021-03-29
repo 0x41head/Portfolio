@@ -10,9 +10,9 @@ export default function Dateandtime() {
     });
 
     return (
-        
-           <Box content={date.toLocaleTimeString("en-US",{hour12:false})+" "+date.toLocaleDateString()} 
-           inix={window.innerWidth-370} iniy={(window.innerHeight*0.1)}/> 
-        
+        <Box content={date.toLocaleTimeString("en-US",{hour12:false}) + "\n\n" } 
+        content2={date.toLocaleDateString()}
+           inix={window.innerWidth-390} iniy={(window.innerHeight*0.025)} width={380} height={150}
+           font= "Aldrich" fsize="80px" ft="bold" fsize2="40px"/>    
     )
 }

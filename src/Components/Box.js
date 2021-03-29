@@ -10,7 +10,6 @@ class Box extends React.Component {
       height_abovenav: window.innerHeight*0.9575,
       avl: true,
     }
-
     this.mxmzfunc = this.mxmzfunc.bind(this);
     this.delete = this.delete.bind(this);
   }
@@ -28,7 +27,7 @@ class Box extends React.Component {
       this.rnd.updateSize({ width: window.innerWidth, height: this.state.height_abovenav });
     }
     else{
-      this.rnd.updateSize({ width: 360, height: 225 });
+      this.rnd.updateSize({ width: this.props.width, height: this.props.height });
     }
     
     this.setState({
@@ -40,11 +39,14 @@ class Box extends React.Component {
         <Rnd
         ref={c => { this.rnd = c; }}
           className="drag-box"
+          style = {{"font-family": this.props.font,
+          "font-size": this.props.fsize,
+          "font-weight":this.props.ft}}
           default={{
           x: this.props.inix,
           y: this.props.iniy,
-          width: 360,
-          height: 225
+          width: this.props.width,
+          height: this.props.height
           }}
           minHeight= "150px"
           minWidth ="240px">
@@ -54,7 +56,10 @@ class Box extends React.Component {
               <button className="minimize">-</button>
             </div>
               <div className="content">
-                <div>{this.props.content}</div>
+                <div>{this.props.content}
+                <div style={{"font-size":this.props.fsize2}}>{this.props.content2}
+                </div>
+                </div>
               </div>
             
           </Rnd>

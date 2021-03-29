@@ -9,10 +9,10 @@ function App() {
     <>
     <div className="entire">
     <Background />
-    <Box content="Placeholder" inix={window.innerWidth-370} iniy={(window.innerHeight*0.9575)-235}/>
+    <Box content="Placeholder" inix={window.innerWidth-270} iniy={(window.innerHeight*0.9575)-235} width={260} height={225} 
+      font= "PT Sans Narrow" fsize="18px"  ft="normal"/>
     <Dateandtime />
     <Navbar />
-    
     </div>
     </>
   );
